@@ -1,0 +1,81 @@
+<!doctype html>
+<html>
+	<head>
+		<title>Radar Chart</title>
+		<script src="Chart.js"></script>
+		<meta name = "viewport" content = "initial-scale = 1, user-scalable = no">
+		<style>
+			canvas{
+			}
+		</style>
+	</head>
+	<body>
+		<div style="width:30%">
+			<canvas id="canvas" height="15%" width="15%"></canvas>
+            <canvas id="canvas2" height="15%" width="15%"></canvas>
+            <canvas id="canvas3" height="15%" width="15%"></canvas>
+		</div>
+
+
+	<script>
+	var radarChartData = {
+		labels: ["Front End","Back End","Workflow Automation","Game Design","Systems Design"],
+		datasets: [
+			
+			{
+				label: "My Second dataset",
+				fillColor: "rgba(151,187,205,0.2)",
+				strokeColor: "rgba(151,187,205,1)",
+				pointColor: "rgba(151,187,205,1)",
+				pointStrokeColor: "#fff",
+				pointHighlightFill: "#fff",
+				pointHighlightStroke: "rgba(151,187,205,1)",
+				data: [70,50,75,65,85]
+			}
+		]
+	};
+    var radarChartData2 = {
+		labels: ["Java","Python","Scheme","CSS2.1","HTML4"],
+		datasets: [
+                   
+                   {
+                   label: "My Second dataset",
+                   fillColor: "rgba(151,187,205,0.2)",
+                   strokeColor: "rgba(151,187,205,1)",
+                   pointColor: "rgba(151,187,205,1)",
+                   pointStrokeColor: "#fff",
+                   pointHighlightFill: "#fff",
+                   pointHighlightStroke: "rgba(151,187,205,1)",
+                   data: [95,50,80,75,85]
+                   }
+                   ]
+	};
+    var radarChartData3 = {
+		labels: ["HTML5","CSS3","JavaScript","PHP","C++"],
+		datasets: [
+                   
+                   {
+                   label: "My Second dataset",
+                   fillColor: "rgba(151,187,205,0.2)",
+                   strokeColor: "rgba(151,187,205,1)",
+                   pointColor: "rgba(151,187,205,1)",
+                   pointStrokeColor: "#fff",
+                   pointHighlightFill: "#fff",
+                   pointHighlightStroke: "rgba(151,187,205,1)",
+                   data: [60,65,95,75,50]
+                   }
+                   ]
+	};
+
+	window.onload = function(){
+		window.myRadar = new Chart(document.getElementById("canvas").getContext("2d")).Radar(radarChartData, {responsive: true, pointDot : false});
+        window.myRadar = new Chart(document.getElementById("canvas2").getContext("2d")).Radar(radarChartData2, {responsive: true, pointDot : false});
+        window.myRadar = new Chart(document.getElementById("canvas3").getContext("2d")).Radar(radarChartData3, {responsive: true, pointDot : false});
+
+                                                                                             
+                                                                                             
+	}
+
+	</script>
+	</body>
+</html>

@@ -1,0 +1,13 @@
+BEGIN:VCARD
+VERSION:3.0
+PRODID:-//Apple Inc.//Mac OS X 10.9.3//EN
+N:Huggins;Matthew;;;
+FN:Matthew Huggins
+item1.EMAIL;type=INTERNET;type=pref:mdhuggins97@gmail.com
+item1.X-ABLabel:main
+TEL;type=IPHONE;type=CELL;type=VOICE;type=pref:+1 (203) 451-6619
+item2.URL;type=pref:https://github.com/mdhuggins
+item2.X-ABLabel:GitHub
+UID:9659905a-c399-4d2f-876e-282e550214d5
+X-ABUID:9659905A-C399-4D2F-876E-282E550214D5:ABPerson
+END:VCARD
