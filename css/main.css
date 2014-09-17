@@ -37,3 +37,7 @@ body {
 #navHeader{
     color:white;
 }
+#jumbotron{
+    position:relative;
+    top:-20px;
+}
