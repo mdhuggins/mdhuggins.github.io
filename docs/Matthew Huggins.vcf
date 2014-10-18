@@ -6,6 +6,7 @@ FN:Matthew Huggins
 item1.EMAIL;type=INTERNET;type=pref:mdhuggins97@gmail.com
 item1.X-ABLabel:main
 TEL;type=IPHONE;type=CELL;type=VOICE;type=pref:+1 (203) 451-6619
+ADR;type=HOME;type=pref:;;71 Sylvan Road North;Westport;CT;06880;USA
 item2.URL;type=pref:https://github.com/mdhuggins
 item2.X-ABLabel:GitHub
 UID:9659905a-c399-4d2f-876e-282e550214d5
