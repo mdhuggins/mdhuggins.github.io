@@ -267,6 +267,23 @@ ul {
 .collapse {
   display: none;
 }
+.collapse.in {
+  display: block;
+}
+tr.collapse.in {
+  display: table-row;
+}
+tbody.collapse.in {
+  display: table-row-group;
+}
+.collapsing {
+  position: relative;
+  height: 0;
+  overflow: hidden;
+  -webkit-transition: height 0.35s ease;
+  -o-transition: height 0.35s ease;
+  transition: height 0.35s ease;
+}
 
 .nav {
   margin-bottom: 0;
@@ -319,6 +336,10 @@ ul {
   -webkit-overflow-scrolling: touch;
 }
 
+.navbar-collapse.in {
+  overflow-y: auto;
+}
+
 @media (min-width:768px) {
   .navbar-collapse {
     width: auto;
@@ -333,7 +354,12 @@ ul {
     overflow: visible !important;
   }
 
-  .navbar-fixed-top .navbar-collapse {
+  .navbar-collapse.in {
+    overflow-y: visible;
+  }
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-static-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
     padding-left: 0;
     padding-right: 0;
   }
@@ -346,6 +372,33 @@ ul {
 @media (max-width:480px) and (orientation:landscape) {
   .navbar-fixed-top .navbar-collapse {
     max-height: 200px;
+  }
+}
+
+.navbar-fixed-top .navbar-collapse,
+.navbar-fixed-bottom .navbar-collapse {
+  max-height: 340px;
+}
+@media (max-width: 480px) and (orientation: landscape) {
+  .navbar-fixed-top .navbar-collapse,
+  .navbar-fixed-bottom .navbar-collapse {
+    max-height: 200px;
+  }
+}
+.container > .navbar-header,
+.container-fluid > .navbar-header,
+.container > .navbar-collapse,
+.container-fluid > .navbar-collapse {
+  margin-right: -15px;
+  margin-left: -15px;
+}
+@media (min-width: 768px) {
+  .container > .navbar-header,
+  .container-fluid > .navbar-header,
+  .container > .navbar-collapse,
+  .container-fluid > .navbar-collapse {
+    margin-right: 0;
+    margin-left: 0;
   }
 }
 
@@ -615,4 +668,3 @@ body {
 #navHeader {
   color: white;
 }
-
