@@ -668,3 +668,8 @@ body {
 #navHeader {
   color: white;
 }
+
+.contact-icon{
+  width: 16px;
+  text-align: center;
+}
