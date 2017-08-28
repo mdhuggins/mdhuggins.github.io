@@ -1,23 +1,23 @@
 (function($) {
     "use strict"; // Start of use strict
 
-    if ($(window).width() > 768) {
-        $('.sr-header-late').each(function(i){
-            $(this).css("opacity", "0")
-        });
+    // if ($(window).width() > 768) {
+    //     $('.sr-header-late').each(function(i){
+    //         $(this).css("opacity", "0")
+    //     });
+    //
+    //     $('#header-cover').height($('#header-cover').parent().height())
+    // }
 
-        $('#header-cover').height($('#header-cover').parent().height())
-    }
-
-    $(document).ready(function(){
-        if ($(window).width() > 768) {
-            $('.sr-header-late').each(function(i){
-                $(this).css("opacity", "0").delay(3000).animate({opacity : 1}, 300);
-            });
-
-            $('#header-cover').delay(3000).fadeOut(900)
-        }
-    });
+    // $(document).ready(function(){
+    //     if ($(window).width() > 768) {
+    //         $('.sr-header-late').each(function(i){
+    //             $(this).css("opacity", "0").delay(3000).animate({opacity : 1}, 300);
+    //         });
+    //
+    //         $('#header-cover').delay(3000).fadeOut(900)
+    //     }
+    // });
 
     // jQuery for page scrolling feature - requires jQuery Easing plugin
     $('a.page-scroll').bind('click', function(event) {
