@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.dcf04a85.chunk.css",
-    "main.js": "/static/js/main.36573c33.chunk.js",
+    "main.js": "/static/js/main.69f08805.chunk.js",
     "runtime-main.js": "/static/js/runtime-main.1cbfc7dc.js",
     "static/css/2.143f9196.chunk.css": "/static/css/2.143f9196.chunk.css",
-    "static/js/2.5f0b4701.chunk.js": "/static/js/2.5f0b4701.chunk.js",
+    "static/js/2.cdded8eb.chunk.js": "/static/js/2.cdded8eb.chunk.js",
     "index.html": "/index.html",
-    "precache-manifest.3f768f7121657bbaa2a5457e206dc396.js": "/precache-manifest.3f768f7121657bbaa2a5457e206dc396.js",
+    "precache-manifest.fccdac9af8ced9966fae58b2eb45c759.js": "/precache-manifest.fccdac9af8ced9966fae58b2eb45c759.js",
     "service-worker.js": "/service-worker.js",
-    "static/js/2.5f0b4701.chunk.js.LICENSE.txt": "/static/js/2.5f0b4701.chunk.js.LICENSE.txt",
+    "static/js/2.cdded8eb.chunk.js.LICENSE.txt": "/static/js/2.cdded8eb.chunk.js.LICENSE.txt",
     "static/media/fade.png": "/static/media/fade.b6776d23.png",
     "static/media/media-lab.png": "/static/media/media-lab.188521de.png",
     "static/media/point-alpha.png": "/static/media/point-alpha.ea99da2f.png",
@@ -17,8 +17,8 @@
   "entrypoints": [
     "static/js/runtime-main.1cbfc7dc.js",
     "static/css/2.143f9196.chunk.css",
-    "static/js/2.5f0b4701.chunk.js",
+    "static/js/2.cdded8eb.chunk.js",
     "static/css/main.dcf04a85.chunk.css",
-    "static/js/main.36573c33.chunk.js"
+    "static/js/main.69f08805.chunk.js"
   ]
 }
